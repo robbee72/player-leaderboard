@@ -1,0 +1,47 @@
+.header {
+  min-height: 25vh;
+  background-color: burlywood;
+}
+
+.header__content {
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header__title {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: $dark-blue;
+  text-align: center;
+  text-decoration: none;
+  h1 {
+    margin: 10px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: $black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  box-shadow: inset 0 0 0 10px $light-aqua;
+  opacity: 0.5;
+}
+
+.active {
+  background-color: $kelly-green;
+}

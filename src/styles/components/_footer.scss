@@ -1,0 +1,48 @@
+.footer {
+  min-height: 15vh;
+  text-align: center;
+  background-color: $light-aqua;
+}
+
+.footer:hover {
+  opacity: 1;
+}
+
+.footer__content {
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.footer__title {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  color: $purple;
+  text-decoration: none;
+  p {
+    margin: 10px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 80;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: $black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  box-shadow: inset 0 0 0 10px $light-aqua;
+  opacity: 0.5;
+}
