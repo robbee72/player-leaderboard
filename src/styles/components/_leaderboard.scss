@@ -17,7 +17,27 @@
   color: Red;
   width: 50px;
 }
+.scorecard {
+  border: 5px;
+  background-color: whitesmoke;
+  padding: 2px;
+  color: black;
+  background: #85dddd;
+}
+
+.scorecardTotal {
+  background: #e96c6c;
+}
 
 .leaderboard {
   background-color: #eeeeee;
+}
+
+.scoreCell {
+  background-color: whitesmoke;
+  padding: 2px;
+  color: black;
+  background: #85dddd;
+  border-width: medium thick;
+  border-color: #6615e7;
 }
