@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { database } from './firebasedata/firebase';
 
-import NewPlayer from './NewPlayer';
+import NewPlayer from './containers/NewPlayer';
 import Players from './Players';
 
 class PlayerApp extends Component {

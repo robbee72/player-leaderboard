@@ -25,8 +25,9 @@ class Players extends Component {
 
   render() {
     const { players } = this.props;
+
     return (
-      <section className="Restaurants">
+      <section>
         {map(players, (player, key) => {
           return (
             <Player
@@ -43,8 +44,7 @@ class Players extends Component {
 }
 
 Players.propTypes = {
-  playersRef: PropTypes.object.isRequired,
-  players: PropTypes.object
+  players: PropTypes.array
 };
 
 export default Players;
